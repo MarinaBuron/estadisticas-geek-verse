@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CalculadoraEstadisticas
+comment0.text=\r\n\ Estad\u00EDsticas\ de\ la\ clase\ Calculadora\r\n\ \r\n\ @author\ Marina\ \r\n\ @version\ 1.0\r\n
+comment1.params=totalDinero\ totalArticulos
+comment1.target=void\ calcularPrecioMedio(double,\ int)
+comment1.text=\r\n\ M\u00E9todo\ que\ calcula\ la\ media\ entre\ el\ total\ del\ dinero\ y\ el\ n\u00FAmero\ de\ art\u00EDculos\r\n\ @param\ totalDinero\:\ el\ dinero\ total\ \r\n\ @param\ totalArticulos\:\ el\ n\u00FAmero\ total\ de\ art\u00EDculos\r\n
+numComments=2
