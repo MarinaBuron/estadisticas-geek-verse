@@ -25,7 +25,7 @@ public class CalculadoraEstadisticas{
      * Mismo método pero con ENTEROS
      */
     public void calcularPrecioMedioEnteros(int totalDinero, int totalArticulos){
-        double media = totalDinero / totalArticulos;
+        double media = (double) totalDinero / totalArticulos;
         
         System.out.println("--- Cálculo de media (Double / Int) ---");
         System.out.println("Total dinero: " + totalDinero);
