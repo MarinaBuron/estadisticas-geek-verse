@@ -60,4 +60,30 @@ public class CalculadoraEstadisticas{
         System.out.println("Valor 'int' resultante: " + numeroPequenio);
         System.out.println("-----------------");
     }
+    
+    /**
+     * Demuestra la diferencia entre literales double por defecto
+     * y literales float que necesitan el sufijo 'f'
+     */
+    public void probarLiteralesDecimales(){
+        System.out.println("---Prueba de literales float/double--");
+        
+        //EL LITERAL POR DEFECTO DOUBLE
+        //Por defecto, Java trata cualquier número decimal como un double (64 bits)
+        double numeroDouble = 3.14159;
+        System.out.println("Esto es un double (por defecto): " + numeroDouble);
+        
+        //EL ERROR
+        //float solo tiene 32 bits.
+        //Intentar asignar un double (64) a un float (32) estrecha y pierde precisión
+        //Java la prohíbe, por eso la siguiente línea no compila
+        //float numeroFloatError = 3.14159; 
+        //Este número ya es un float porque hemos añadido el sufijo 'f'
+        float numeroFloat = 3.14159f; 
+        
+        System.out.println("Esto es un foat (con sufijo 'f'): " + numeroFloat);
+        System.out.println("-----------------");
+        
+        
+    }
 }
