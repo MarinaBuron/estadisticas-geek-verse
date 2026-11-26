@@ -46,4 +46,18 @@ public class CalculadoraEstadisticas{
         System.out.println("Puntos generados (decimales truncados): " + puntos);
         System.out.println("------------------------------");
     }
+    
+    /**
+     * Demuestra el peligro del "overflow" al hacer narrowing
+     * desde un número grande a uno pequeño
+     */
+    public void probarOverFlow(){
+        long numeroGrande = 3000000000L;
+        int numeroPequenio = (int) numeroGrande;
+        
+        System.out.println("---Prueba de Overflow (long -> int)---");
+        System.out.println("Valor 'long' original: " + numeroGrande);
+        System.out.println("Valor 'int' resultante: " + numeroPequenio);
+        System.out.println("-----------------");
+    }
 }
